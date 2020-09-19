@@ -1,0 +1,137 @@
+#Thumb2{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url(Healing.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:22px 0 ;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 4s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+/*check landscape, horizon */
+@-webkit-keyframes backgroundScroll {
+from {opacity:.1}
+to { opacity:1;}
+}
+
+.ProtectGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    grid-column-gap:15px;;
+    margin:0 auto; 
+    width:85%;
+}
+
+.ProtectGrid img{
+width:70%;
+margin:0 auto;
+border-radius:7px;
+}
+
+
+.ProtectGrid div{
+    text-align: center;
+}
+
+.ProtectGrid a{
+    text-decoration: none;
+    color:rgb(83, 83, 83); 
+}
+
+.ProtectGrid a:hover{
+    opacity: 1;
+}
+
+
+
+
+.InfoContainer{
+    width:75%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0 auto; 
+}
+
+#BetweenNote{
+    width:70%; 
+    margin:0 auto; 
+    text-align:center; 
+    font-size:14.7px; 
+    font-style: oblique;
+    letter-spacing:.11px;
+    color:rgb(83, 79, 77);
+}
+#BetweenNote p{margin:12px 0 0 0; padding-bottom:10px;}
+
+.InfoContainer h2{
+    font-size:21px;
+color:rgb(94, 92, 92); 
+letter-spacing:2px;
+font-weight: normal;
+text-shadow:1px 1px rgb(155, 153, 153); 
+}
+
+
+    
+
+#InfoBox p{
+    border-bottom:.5px solid rgb(20, 76, 83); 
+    border-top:.5px solid grey; 
+    padding:7px 0;
+    color:rgb(83, 83, 83); 
+    letter-spacing:1.3px;
+    font-size:15px;
+}
+
+
+#InfoBox b{
+    color:rgb(170, 121, 24); 
+    font-size:14px;
+}
+.ProtectGrid h2{
+    color:rgb(160, 38, 16); 
+    font-style:oblique;
+    color:rgb(87, 87, 199);
+
+    font-weight: normal;
+    font-size:15px;
+    text-shadow:.3px .3px rgb(175, 139, 139);
+}
+
+#TitleOne{
+
+
+}
+
+#TitleTwo{
+}
+#TitleThree{
+}
+
+@media only screen and (max-width: 600px) {
+   .ProtectGrid a{
+        opacity:.89;
+        font-size:11px;
+    }
+    .ProtectGrid h2{
+    font-size:11px;}
+    .ProtectGrid img{
+    width:89%;}
+
+#InfoBox p{
+    font-size:11px;
+
+  }
+  #InfoBox p b{
+    font-size:11px;
+
+  }
+}  

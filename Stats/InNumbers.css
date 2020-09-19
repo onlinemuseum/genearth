@@ -1,0 +1,138 @@
+#Thumb2{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('CoverImageNews.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:25px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+
+
+
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 20px}
+    to {background-position:  0 -140px;}
+    }
+    
+    
+    @media only screen and (max-width:670px) {
+        #CoverImage{
+            -webkit-animation: backgroundScroll-2 15s linear 1;
+            animation-fill-mode: forwards;
+        }
+        
+        @-webkit-keyframes backgroundScroll-2 {
+            from {background-position: -10px -90px}
+            to {background-position: -180px -90px;}
+            }
+            
+        
+        }
+
+  
+
+.InfoContainer{
+    width:75%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0 auto; 
+}
+
+    
+#BetweenNote{
+    width:70%; 
+    margin:0 auto; 
+    margin-top:25px;
+    text-align:center; 
+    font-size:14.7px; 
+    font-style: oblique;
+    font-size:13.5px;
+    letter-spacing:.11px;
+    color:rgb(83, 79, 77);
+}
+#BetweenNote p{margin:12px 0 0 0; padding-bottom:10px;}
+
+.InfoContainer h2{
+    font-size:21px;
+color:rgb(94, 92, 92); 
+letter-spacing:2px;
+text-decoration: underline;
+font-weight: normal;
+text-shadow:1px 1px rgb(155, 153, 153); 
+}
+
+#Asterix{
+    text-decoration: none; 
+   color:rgb(133, 10, 77); 
+}
+#Asterix:hover{
+    color:rgb(170, 35, 109); 
+    text-decoration: underline;
+}
+#InfoBox p{
+    border-bottom:.5px solid rgb(161, 56, 56); 
+    border-top:.5px solid grey; 
+    padding:7px 0;
+    color:rgb(83, 83, 83); 
+    letter-spacing:1.3px;
+    font-size:16px;
+}
+
+#InfoBox a{
+    text-decoration: none;
+    color:rgb(83, 83, 83);
+}
+
+#InfoBox #MoreStats{
+    margin-left:15px;
+    color:rgb(133, 10, 77); 
+}
+
+#InfoBox #MoreStats:hover{
+    color:rgb(170, 35, 109); 
+
+}
+
+#InfoBox b{
+    color:rgb(250, 210, 132); 
+    font-size:17px;
+    text-shadow:1px 1px rgb(97, 58, 32);
+}
+
+/*
+grey bot top border
+stacked close 
+Some color 
+numbers highlighted color 
+*/
+
+footer-2{
+    width:70%; 
+    margin:0 auto; 
+    text-align:center; 
+    font-size:14.7px; 
+    margin-top:95px; 
+    font-style: oblique;
+    letter-spacing:.11px;
+    color:rgb(83, 79, 77);
+}
+footer-2 p{margin:12px 0 0 0; padding-bottom:10px;}
+footer-2 hr{
+    width:45%; 
+    height:1.5px; 
+    background-color: rgb(253, 205, 116); 
+    border:none;
+}

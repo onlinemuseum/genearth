@@ -16,6 +16,32 @@ object{width:100%; margin:0; display:block;
             text-transform: uppercase;
             text-decoration: underline;;
     }
+               
+    
+    @media only screen and (max-width:500px){
+        nav p{
+            font-size:6px;
+            letter-spacing: .75px;
+        }
+        nav{
+            display:grid;
+            width:70%;
+            margin:0 auto;
+            grid-template-columns: 2fr 53fr 24fr ;
+        }
+        #Nav2{
+            margin-left:-20px;
+        }
+#Logo{
+    transform: scale(.8);
+    margin-top:-4px;
+}
+        #Logo a{
+            font-size:14px;
+        }
+      
+     }
+     
     
     .Carousel{    width:100%;    
         background-image: -webkit-linear-gradient(left, rgb(255, 212, 172), rgb(255, 123, 0));
@@ -54,7 +80,9 @@ object{width:100%; margin:0; display:block;
         nav p{    color:rgb(216, 216, 216);     text-align:center;
             text-decoration:none;;
         }
-        nav a{text-decoration:none; color:rgb(216, 216, 216); }
+        nav a{text-decoration:none; 
+            outline:none; 
+            color:rgb(216, 216, 216); }
         nav a:hover{color:white;  }
         #Logo{position:relative;}
         #Logo p{
@@ -68,8 +96,8 @@ object{width:100%; margin:0; display:block;
         }
         #Logo a{
             text-shadow:1.5px 1.5px rgb(63, 56, 17);
-    
-            color:white; }
+            color:white;
+         }
     
         #Logo a span{
             color:rgb(255, 227, 184); 
@@ -516,7 +544,6 @@ object{width:100%; margin:0; display:block;
     .ImageGrid-2 p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36); }
     
     .EntirePage{
-        border-bottom:1.5px solid rgba(221, 88, 11, 0.692);
         border-bottom-right-radius:15px;
         border-bottom-left-radius: 15px;
     }
@@ -591,3 +618,4 @@ object{width:100%; margin:0; display:block;
         }
      
           
+
