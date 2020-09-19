@@ -249,7 +249,8 @@ li span a{
 }
 
 .ImageGrid3 img{
- opacity:1
+ opacity:1;
+ width:100%;
 }
 
 @media only screen and (max-width: 600px) {
