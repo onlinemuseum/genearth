@@ -56,7 +56,7 @@ nav p{
 /*NAV NAV NAV*/
     nav{
         display: grid;        
-        grid-template-columns: 12fr 53fr 24fr ;
+        grid-template-columns: 12fr 53fr ;
         width:100%;
         grid-gap:10px;
         background-color:rgb(58, 58, 58); 

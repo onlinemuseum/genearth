@@ -53,7 +53,7 @@ object{width:100%; margin:0; display:block;
         nav{
             display: grid;
             
-            grid-template-columns: 12fr 53fr 24fr ;
+            grid-template-columns: 12fr 53fr;
             width:100%;
             grid-gap:10px;
             background-color:rgb(58, 58, 58); 
@@ -110,7 +110,7 @@ object{width:100%; margin:0; display:block;
         #Uplifting{        color:rgb(233, 193, 133) 
         }
         #Uplifting:hover{color:rgb(255, 179, 92); }
-        #Nav3{    grid-template-columns:1fr 1fr 1fr;}
+
         
     #Thumb{
             color:#fff;
