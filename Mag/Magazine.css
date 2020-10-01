@@ -20,8 +20,8 @@
 }
 
 @-webkit-keyframes backgroundScroll {
-from {background-position: 0 20px}
-to {background-position:  0 -140px;}
+from {background-position: 0 -80px}
+to {background-position:  0 -320px;}
 }
 
 
