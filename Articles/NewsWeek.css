@@ -99,9 +99,23 @@ to {background-position:  0 -140px;}
     color:rgb(182, 37, 37);
 }
 
+
+
+
 .NewsBox a:hover{
    text-decoration:none;
    color:rgb(182, 37, 37);
    border-bottom:.3px solid black;
 
+}
+
+.NewsBox a{
+    color:rgb(33, 100, 131); 
+    text-decoration:none; 
+    font-size:14.6px;
+}
+
+.NewsBox a:hover{
+    color:rgb(33, 100, 131); 
+    border-bottom:.35px solid rgb(218, 153, 13); 
 }
