@@ -110,7 +110,7 @@ h1{text-align:center;
     text-shadow:1px 1px black;}
 nav{
     display: grid;
-    grid-template-columns: 12fr 53fr 24fr ;
+    grid-template-columns: 12fr 53fr ;
     width:100%;
     grid-gap:10px;
     background-color:rgb(58, 58, 58); 
