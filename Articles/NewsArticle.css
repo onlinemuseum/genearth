@@ -233,15 +233,17 @@ section-1 h2{
  
 }
 section-1 h3{
+    font-size:17px;
+    font-style: oblique;
     text-align:center;
     letter-spacing:1px;
-    font-size:18px;
     color:rgb(46, 45, 45); 
     margin:35px 0 25px 0;
     color: rgb(199, 132, 44);
     font-weight: normal;
     text-shadow:.1px .1px rgb(117, 83, 38);
 }
+
 
 
 section-2 h3{
