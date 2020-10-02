@@ -197,6 +197,16 @@ section-1 .TextBox{
     margin-top:19px;
 }
 
+
+#PicCaption2{
+    text-align:center; 
+    color: rgb(10, 14, 83); 
+    font-size:14px;
+    text-shadow:.4px .4px rgba(37, 56, 66, 0.582);
+    margin:10px 0 0 0;
+}
+
+
 .EndArticle{
     text-align:center;
     letter-spacing:5px;
@@ -204,7 +214,7 @@ section-1 .TextBox{
     font-size:25px;
 }
 
-section-1 #PicCaption{
+#PicCaption{
     text-align:center; 
     color: grey; 
     font-size:14px;

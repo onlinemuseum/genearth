@@ -1,0 +1,51 @@
+
+#Thumb2{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('Tiger.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:16px 0;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll2 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll2 3s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+
+#Thumb2{
+color:#fff;
+opacity:.72;
+border-bottom:2px solid rgb(231, 186, 60);
+text-align:center;
+background-image: url("Tiger.jpg");  
+/*https://www.nasa.gov/sites/default/files/thumbnails/image/sts059-81-095large.jpg*/
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 12px;
+padding:24px 0 ;
+background-position:-200px -40px;
+background-color:black;
+
+}
+
+@-webkit-keyframes backgroundScroll2 {
+    from {background-position: 0 -150px;}
+    to {background-position: 0 -300px ;}
+    }
+    
+
+@media only screen and (max-width:600px){
+    @-webkit-keyframes backgroundScroll2 {
+        from {background-position: -200px -50px;}
+        to {background-position: -200px -150px ;}
+        }
+}
