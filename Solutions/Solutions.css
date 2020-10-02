@@ -12,15 +12,15 @@
         background-size: cover;
         font-size: 12px;
         padding:22px 0 ;
-        -webkit-animation: backgroundScroll 15s linear 1;
+        -webkit-animation: backgroundScroll3 15s linear 1;
         -webkit-animation-fill-mode: forwards;
-        animation: backgroundScroll 4s linear 1;
+        animation: backgroundScroll3 4s linear 1;
         animation-fill-mode: forwards;
         border-bottom-left-radius: 11px; 
         border-bottom-right-radius: 11px;;
     }
     /*check landscape, horizon */
-    @-webkit-keyframes backgroundScroll {
+    @-webkit-keyframes backgroundScroll3 {
     from {opacity:.1}
     to { opacity:1;}
     }
