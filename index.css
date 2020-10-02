@@ -329,6 +329,7 @@ object{width:100%; margin:0; display:block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
+
     details a{
         color: rgb(134, 103, 65) ;
         font-weight:normal;
@@ -387,6 +388,14 @@ object{width:100%; margin:0; display:block;
         
     .TopHeader span{
         color:rgb(185, 13, 13); 
+    }
+    #TextB{
+        color:rgb(250, 166, 70);
+        text-shadow:.5px .5px black;
+        background-image:-webkit-radial-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
+    }
+    #TextB span{
+        color:rgb(248, 215, 177);
     }
     
     .TopGrid{     display:grid;    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    grid-gap:20px;
