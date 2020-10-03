@@ -78,6 +78,13 @@ to {background-position:  0 -140px;}
     }
 
     
+    @media only screen and (max-width:570px) {
+        .NewsBox h2{ font-size: 15px} 
+        .NewsBox span{font-size:15px;}
+
+        .Instruction{text-align: right;}
+        }
+        
     @media only screen and (min-width:870px) {
     .NewsBox h2{ font-size: 17px} 
     .NewsBox span{font-size:15px;}
@@ -98,6 +105,8 @@ to {background-position:  0 -140px;}
     text-decoration:none;
     color:rgb(182, 37, 37);
 }
+
+.NewsBox a:focus { outline: 0; }
 
 .NewsBox a:hover{
    text-decoration:none;
