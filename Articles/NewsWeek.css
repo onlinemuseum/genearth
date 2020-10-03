@@ -79,10 +79,8 @@ to {background-position:  0 -140px;}
 
     
     @media only screen and (max-width:570px) {
-        .NewsBox h2{ font-size: 15px} 
-        .NewsBox span{font-size:15px;}
-
-        .Instruction{text-align: right;}
+        .NewsBox h2{ font-size: 17px; font-weight:normal;} 
+        .NewsBox span{font-size:14px;}
         }
         
     @media only screen and (min-width:870px) {
