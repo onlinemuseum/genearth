@@ -273,7 +273,10 @@ section-2 h3{
     text-shadow:.5px .5px rgb(185, 183, 183);
     
 }
-
+#Note{
+   
+    margin:0 auto; display:block; font-size:14px; color:rgb(7, 61, 77);
+}
 section-2 a{
     color:rgb(33, 100, 131); 
     text-decoration:none; 
